@@ -13,7 +13,7 @@
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
     color: hsl(236, 13%, 42%);
     line-height: 1.6;
 }
@@ -39,9 +39,14 @@ header {
     margin-inline: 10px;
 }
 
-header img {
-    width: 50px;
-    height: 50px;
+header .logo {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+header .icon {
+    width: 45px;
+    height: 45px;
     object-fit: contain;
 }
 
@@ -121,11 +126,12 @@ main {}
 .introduction button {
     background-color: var(--red);
     color: #FFF;
-    padding: 10px;
-    padding-inline: 20px;
+    padding: 15px;
+    padding-inline: 30px;
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 17px;
 }
 
 .news {
